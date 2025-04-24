@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 app = Client(
     "FileStoreBot",
-    api_id=APP_ID,
+    api_id=API_ID,
     api_hash=API_HASH,
     bot_token=TG_BOT_TOKEN,
     workers=TG_BOT_WORKERS,
