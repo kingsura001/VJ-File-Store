@@ -14,7 +14,7 @@ app = Client(
     "FileStoreBot",
     api_id=API_ID,
     api_hash=API_HASH,
-    bot_token=BOT_TOKEN,
+    bot_token=TG_BOT_TOKEN,
     workers=TG_BOT_WORKERS,
     plugins=dict(root="plugins"),
 )
